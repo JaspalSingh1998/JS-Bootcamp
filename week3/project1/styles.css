@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+li {
+    list-style: none;
+}
+.container {
+    max-width: 1440px;
+    margin: 4rem auto;
+}
+section {
+    margin-bottom: 4rem;
+}
+.navbar-container {
+    display: flex;
+    align-items: center;
+}
+.grow-list {
+    margin-left: 4rem;
+}
+.grow-list .list {
+    cursor: pointer;
+    display: flex;
+    gap: 2.5rem;
+    color: gray;
+}
+.grow-list .list li:first-child {
+    color: black;
+}
+.button-group {
+    margin-left: auto;
+}
+.nav-button {
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    background-color: #5155A6;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.nav-button:hover {
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+
+.banner-container {
+    display: flex;
+    align-items: center;
+}
+.banner-container img {
+    position: relative;
+    right: -200px;
+}
+.heading-text {
+    font-size: 4rem;
+    line-height: 1.2;
+    color: #3C2F60;
+    margin-bottom: 1rem;
+}
+.heading-text span {
+    color: #5955B3;
+}
+.description {
+    width: 380px;
+    color: #9A9A9A;
+    margin-bottom: 3.5rem;
+}
+.btn {
+    padding: 2rem 3rem;
+}
