@@ -123,3 +123,60 @@ header .images .front-cards {
     align-items: center;
     gap: 1.5rem;
 }
+.cta-section{
+    margin-top: 10rem;
+    padding: 4rem 8rem;
+    background-color: var(--cta-section-bg);
+}
+.cta-section div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-section div img {
+    width: 10rem;
+}
+
+.highlights {
+    padding: 10rem 0;
+}
+
+.top-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+}
+
+.top-content h2 {
+    font-size: 4rem;
+}
+
+.top-content h2 span {
+    color: var(--accent);
+}
+
+.top-content p {
+    font-size: 1.4rem;
+    color: var(--cards-bg);
+}
+
+.bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-card {
+    display: grid;
+    place-items: center;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.feature-card.active{
+    background-color: var(--cards-bg);
+    margin-top: -4rem;
+}
