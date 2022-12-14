@@ -246,3 +246,36 @@ header .images .front-cards {
     margin-top: auto;
     margin-bottom: 0;
 }
+
+.marketing {
+    text-align: center;
+    height: 500px;
+    padding: 5rem 0;
+    background: url('/Assets/Photos/Rectangle\ 6774.png') no-repeat, url('./Assets/Photos/Rectangle\ 6773.png') no-repeat;
+    background-size: cover;
+}
+
+.marketing h2 {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.marketing h2 span {
+    color: #0D0D0D;
+}
+
+.marketing .cta {
+    font-size: 2rem;
+}
+
+.marketing .cta::before {
+    content: '';
+    position: absolute;
+    background-image: url('./Assets/Icons/btn-pink-bg.svg');
+    height: 100%;
+    width: 80px;
+    left: -20px;
+    z-index: 1;
+    opacity: .3;
+}
