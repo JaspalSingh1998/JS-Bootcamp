@@ -16,10 +16,11 @@ body {
     font-family: 'Nunito', sans-serif;
     background-color: #0D0D0D;
     height: 100vh;
+    overflow-x: hidden;
     color: #ffffff;
 }
 .container {
-    max-width: 1440px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
 }
@@ -44,7 +45,7 @@ navbar ul {
     gap: 2.5rem;
 }
 
-navbar .cta {
+.cta {
     border: none;
     outline: none;
     position: relative;
@@ -52,7 +53,7 @@ navbar .cta {
     color: #ffffff;
 }
 
-navbar .cta::before {
+.cta::before {
     content: '';
     position: absolute;
     background-image: url('./Assets/Icons/btn-pink-bg.svg');
@@ -60,4 +61,65 @@ navbar .cta::before {
     width: 30px;
     left: -20px;
     z-index: -100;
+}
+header .actions {
+    display: flex;
+    align-items: center;
+}
+header .cta {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+header {
+    display: flex;
+    padding-top: 10rem;
+}
+header .images {
+    position: absolute;
+    right: 900px;
+    top: 100px;
+}
+header .images img {
+    position: absolute;
+}
+
+header .images .back-cards {
+    top: -50px;
+}
+
+header .images .front-cards {
+    top: 20px;
+    left: 220px;
+}
+.main-heading {
+    font-size: 5rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+}
+
+.main-heading span {
+    color: var(--accent);
+}
+
+.description {
+    color: var(--cards-bg);
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.stats {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.stats span {
+    color: var(--accent);
+}
+.stats div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
