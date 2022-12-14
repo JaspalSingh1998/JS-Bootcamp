@@ -177,6 +177,28 @@ header .images .front-cards {
 }
 
 .feature-card.active{
+    border: 2px solid #fff;
     background-color: var(--cards-bg);
     margin-top: -4rem;
+}
+
+.unique-cards {
+    padding: 8rem 0 0 0;
+    background-color: #FCEEFB;
+    color: #0D0D0D;
+    text-align: center;
+}
+
+.unique-cards h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+}
+
+.unique-cards h2 span{
+    color: var(--accent);
+}
+
+.unique-cards img {
+    margin-top: -1.5rem;
 }
