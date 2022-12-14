@@ -279,3 +279,16 @@ header .images .front-cards {
     z-index: 1;
     opacity: .3;
 }
+
+footer {
+    padding-bottom: 8rem;
+    margin-top: 8rem !important;
+    display: flex;
+    align-items: center;
+    gap: 20rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 2rem;
+}
