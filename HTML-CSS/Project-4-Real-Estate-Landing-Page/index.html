@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Real Estate Landing Page</title>
 </head>
-<body>
+<body class="overflow-x-hidden">
     <header style="background:  linear-gradient(to bottom, rgba(3,0,1,255), rgba(3,0,1,0.2)), url('/Assets/Photos/mainBackground.png');">
         <div class="container mx-auto text-white relative">
             <nav class="flex justify-between items-center py-8">
@@ -33,8 +33,8 @@
             </div>
         </div>
     </header>
-    <div class="bg-[#f6f8fa] py-48">
-        <div class="container mx-auto">
+    <div class="py-48">
+        <div class="container mx-auto mb-44">
             <h2 class="text-center text-5xl leading-tight font-bold mb-20">Our Best Estate, <br/> are Modern</h2>
             <div class="flex justify-center items-center gap-4 h-96 mb-20">
                 <div class="rounded-xl self-start">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-center items-center gap-4 h-96 mb-20">
+            <div class="flex justify-center items-center gap-4 h-96 mb-44">
                 <div class="rounded-xl self-start">
                     <div class="rounded-xl h-80 w-72 bg-[url('./Assets/Photos/cardImage7.png')] bg-center bg-cover relative px-4">
                         <div class="bg-white flex justify-between px-6 py-4 rounded-xl absolute w-[90%] -bottom-10 shadow-xl">
@@ -142,8 +142,79 @@
                 </div>
             </div>
 
+            <div class="flex items-center justify-center mb-44">
+                <div class="basis-1/2 relative">
+                    <img src="./Assets/Icons/featureImageBg1.svg" alt="" class="absolute -left-20 top-0" style="z-index: -1; height: 130%;">
+                    <img src="./Assets/Photos/featuresImage1.png" alt="Home" class="w-1/2 aspect-square rounded-2xl ml-2">
+                </div>
+                <div class="basis-1/2 justify-self-end">
+                    <h3 class="text-6xl leading-tight font-bold mb-4">Modern, Trendy, <br/> Affordable!</h3>
+                    <p class="text-sm text-[#636a76] mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Voluptatum hic sint animi impedit illo quod?</p>
+                    <button class="bg-[#6663e9] text-white px-6 py-2 rounded-full">Early Bird Book</button>
+                </div>
+            </div>
 
+
+            <div class="flex items-center justify-between">
+                <div class="basis-1/2">
+                    <h3 class="text-6xl leading-tight font-bold mb-4">Unique house, <br/> for long term!</h3>
+                    <p class="text-sm text-[#636a76] mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Voluptatum hic sint animi impedit illo quod?</p>
+                    <button class="bg-[#6663e9] text-white px-6 py-2 rounded-full">Early Bird Book</button>
+                </div>
+                <div class="basis-1/2 relative right-[-25%]">
+                    <img src="./Assets/Icons/featureImageBg2.png" alt="" class="absolute -left-24 top-0" style="z-index: -1; height: 130%;">
+                    <img src="./Assets/Photos/featuresImage2.png" alt="Home" class="w-1/2 aspect-square rounded-2xl ml-2">
+                </div>
+            </div>
         </div>
+
+        <div class="container mx-auto bg-[#6663e9] text-white flex flex-col items-center p-20 rounded-3xl">
+            <h3 class="text-center text-4xl font-bold leading-tight mb-4">Subscribe to Our Newsletter <br/> For Weekly Article Update.</h3>
+            <p class="text-sm text-[#d4d5d5] text-center mb-8">We have real estate related blog so we can share our thoughts and rutinity in <br/> our blog that updated weekly. We will not spam you we promise.</p>
+
+            <div class="flex gap-8">
+                <div class="flex bg-[#5654d1] px-8 py-4 rounded-full">
+                    <img src="./Assets/Icons/mail.png" alt="Mail Logo">
+                    <input type="email" placeholder="Enter your email address" class="bg-transparent text-white ml-4">
+                </div>
+                <button class="bg-white text-[#5654d1] px-6 py-2 rounded-full">Subscribe</button>
+            </div>
+        </div>
+
+        <footer class="mt-44 container mx-auto flex justify-between">
+            <div>
+                <img src="./Assets/Icons/Logo.svg" alt="Logo" class="h-10">
+                <div class="flex gap-4 my-4">
+                    <img src="./Assets/Icons/facebook.png" alt="" class="h-10">
+                    <img src="./Assets/Icons/twitter.png" alt="" class="h-10">
+                    <img src="./Assets/Icons/instagram.png" alt="" class="h-10">
+                </div>
+                <p class="text-[#6e7074]">2002 Award winning Real estate</p>
+            </div>
+            <div class="flex basis-3/5 gap-44 text-[#6e7074]">
+                <ul class="space-y-4">
+                    <li><h3 class="font-bold text-black">Location</h3></li>
+                    <li>America</li>
+                    <li>Asia</li>
+                    <li>Europe</li>
+                    <li>Africa</li>
+                </ul>
+                <ul class="space-y-4">
+                    <li><h3 class="font-bold text-black">Contact</h3></li>
+                    <li>About me</li>
+                    <li>Team</li>
+                    <li>FAQ</li>
+                    <li>Profile</li>
+                </ul>
+                <ul class="space-y-4">
+                    <li><h3 class="font-bold text-black">Legals</h3></li>
+                    <li>Privacy</li>
+                    <li>Disclaimer</li>
+                    <li>Terms</li>
+                    <li>Company</li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
