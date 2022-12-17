@@ -11,6 +11,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -24,10 +25,14 @@ a {
 li {
     list-style: none;
 }
+a {
+    color: var(--text-color);
+}
 main {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
 }
 
 nav {
@@ -185,4 +190,79 @@ header .cta{
     align-items: center;
     padding: 1.5rem 2rem;
     gap: 1.5rem;
+}
+.choose-style {
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose-style > img {
+    margin-bottom: 10rem;
+}
+.choose-style .item {
+    background-color: var(--cta-bg);
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.choose-style .item > img {
+    width: 10rem;
+    margin-top: -7rem;
+    margin-left: 20%;
+}
+.choose-style > div {
+    padding: 0 10rem;
+    display: flex;
+    gap: 8rem;
+    flex-wrap: wrap;
+}
+.choose-style .item > div {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.choose-style .item > div p{
+    font-size: 1rem;
+}
+
+.choose-style .item > div .shopping-bag {
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-left: 2rem;
+    background-color: var(--bg-blackground);
+}
+footer {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer li {
+    margin-bottom: 2rem;
+}
+footer ul > li > a {
+    color: var(--body-text);
+    font-size: 1.4rem;
+}
+footer .subscribe {
+    background-color: var(--cta-bg);
+    padding: 2rem;
+    border-radius: .5rem;
+    margin-bottom: 2rem;
+}
+footer input {
+    background: transparent;
+    outline: none;
+    border: none;
+}
+footer .cta {
+    background-color: var(--bg-blackground);
+}
+.up-arrow {
+    background: var(--bg-blackground);
+    position: absolute;
+    bottom: 6rem;
+    right: -5rem;
+    cursor: pointer;
 }
