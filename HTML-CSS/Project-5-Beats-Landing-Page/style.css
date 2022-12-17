@@ -2,6 +2,7 @@
     --bg-blackground: #0f0f10;
     --text-color: #ffffff;
     --cta-bg: #181a1b;
+    --body-text: #bdc0c2;
 }
 * {
     margin: 0;
@@ -39,7 +40,7 @@ nav > div {
     display: flex;
     align-items: center;
 }
-nav > div button {
+.cta {
     background-color: var(--cta-bg);
     color: #fff;
     border: none;
@@ -51,4 +52,49 @@ nav ul {
     display: flex;
     gap: 5rem;
     font-weight: bold;
+}
+header {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    margin-bottom: 12rem;
+}
+header .hero-image {
+    margin-top: -30rem;
+}
+header .hero-content {
+    display: flex;
+    flex-direction: column;
+}
+header .onear {
+    width: 70%;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+header .hero-content h1 {
+    font-size: 5.2rem;
+    margin-bottom: 3rem;
+}
+header .hero-content > p {
+    margin: 3rem 0;
+    color: var(--body-text);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+header .cta {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 0;
+    width: fit-content;
+    padding: 1.5rem 2rem;
+}
+header .cta{
+    font-size: 1.5rem;
+}
+.publications {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 5rem;
 }
