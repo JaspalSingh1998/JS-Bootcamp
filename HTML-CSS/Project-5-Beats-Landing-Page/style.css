@@ -157,3 +157,32 @@ header .cta{
     padding: 1.5rem 2rem;
     margin-top: 5rem;
 }
+.cta-section {
+    width: 80%;
+    margin: 10rem auto;
+    padding: 5rem;
+    border-radius: 1rem;
+    background-color: var(--cta-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+.cta-section h2 {
+    font-size: 2rem;
+    line-height: 1.6;
+}
+.cta-section p {
+    font-size: 1.4rem;
+    color: var(--body-text);
+    margin: 1.5rem 0;
+}
+.cta-section .cta {
+    background-color: var(--bg-blackground);
+    margin-left: 0;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    gap: 1.5rem;
+}
