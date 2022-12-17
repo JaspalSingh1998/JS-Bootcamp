@@ -131,3 +131,29 @@ header .cta{
 .specs .specs-content div:last-child {
     margin-left: 3rem;
 }
+.case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.case > img {
+    margin-bottom: 5rem;
+}
+.case > div {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.case > div p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: var(--body-text);
+}
+.case .cta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 0;
+    padding: 1.5rem 2rem;
+    margin-top: 5rem;
+}
