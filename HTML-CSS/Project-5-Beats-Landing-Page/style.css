@@ -14,4 +14,41 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
+    background: var(--bg-blackground);
+    color: var(--text-color);
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+main {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > div {
+    display: flex;
+    align-items: center;
+}
+nav > div button {
+    background-color: var(--cta-bg);
+    color: #fff;
+    border: none;
+    padding: 1.5rem 4rem;
+    margin-left: 5rem;
+    border-radius: .5rem;
+}
+nav ul {
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
 }
