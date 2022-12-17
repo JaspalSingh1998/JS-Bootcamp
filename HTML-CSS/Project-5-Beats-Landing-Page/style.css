@@ -98,3 +98,36 @@ header .cta{
     justify-content: space-around;
     padding: 0 5rem;
 }
+.specs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15rem 0;
+}
+.specs > img {
+    margin-bottom: 5rem;
+}
+.specs > div {
+    display: flex;
+    gap: 5rem;
+}
+.specs .specs-content div {
+    margin-bottom: 1.2rem;
+}
+.specs .specs-content div img{
+    width: 1.5rem;
+}
+.specs .specs-content div h3{
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+.specs .specs-content div p{
+    font-size: 1rem;
+    color: var(--body-text);
+}
+.specs .specs-content div:first-child {
+    margin-left: 3rem;
+}
+.specs .specs-content div:last-child {
+    margin-left: 3rem;
+}
