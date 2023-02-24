@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checkbox-custom {
+    height: 20px !important;
+    width: 20px !important;
+}
